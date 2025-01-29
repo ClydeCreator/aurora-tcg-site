@@ -2,8 +2,16 @@ backend:
   name: github
   repo: ClydeCreator/aurora-tcg-site
   branch: main
-  base_url: https://github.com
+  base_url: https://api.netlify.com
   auth_endpoint: auth
+
+media_folder: "public/uploads" # Dossier où seront stockées les images
+public_folder: "/uploads"
+
+media_library:
+  name: uploadcare
+  config:
+    publicKey: "demopublickey" # Remplace par ta vraie clé si tu utilises Uploadcare
 
 collections:
   - name: "cards"
