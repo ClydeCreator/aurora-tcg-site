@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ClydeCreator/aurora-tcg-site
   branch: main
-  auth_scope: repo
+  auth_endpoint: https://api.netlify.com/auth
 
 media_folder: "public/images"
 public_folder: "/images"
