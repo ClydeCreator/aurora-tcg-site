@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: ClydeCreator/aurora-tcg-site
+  name: git-gateway
   branch: main
-  auth_scope: repo
 
 media_folder: "public/images"
 public_folder: "/images"
